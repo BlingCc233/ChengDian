@@ -1,6 +1,6 @@
 <div align="center">
   
-# go-cqhttp-ccbot
+# 抢票
 > 适用于Windows的成电讲坛抢票脚本
 
 
