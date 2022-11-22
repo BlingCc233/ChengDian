@@ -13,7 +13,7 @@ def tick():
 if __name__ == "__main__":
     scheduler = BackgroundScheduler()
 
-    scheduler.add_job(tick, 'interval', days=1, start_date="2022-11-22 13:22:50")
+    scheduler.add_job(tick, 'interval', days=1, start_date="2022-11-22 13:22:50") #在这里设置执行时间
 
     scheduler.start()
 
