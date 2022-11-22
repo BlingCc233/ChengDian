@@ -33,8 +33,8 @@ async def run():
     await page.goto(url)  # 问卷星网址
 
     # 模拟输入 账号密码  {'delay': rand_int()} 为输入时间
-    await page.type('#q1', "曹福泰")
-    await page.type('#q2', "2022080911020")
+    await page.type('#q1', " 姓名 ")
+    await page.type('#q2', " 学号 ")
 
     await page.waitFor(1000)
     await page.click("#ctlNext")
